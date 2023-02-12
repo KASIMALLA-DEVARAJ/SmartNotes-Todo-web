@@ -123,13 +123,9 @@ export default function Todos() {
     })
   },[])
 
-  const notify = () => toast("Wow so easy!");
-
   return (
     <>
     <AppNavbar logged={true} />
-    {/* <button onClick={notify}>Notify!</button>
-    <ToastContainer theme='dark'/> */}
     <h3  style={{color:"#011440"}} className='text-center'>Save To-do's & Take Actions.</h3>
     <br/>
     <Container className='border shadow p-5 rounded' style={{minHeight:"600px",backgroundColor:"white"}}> 
