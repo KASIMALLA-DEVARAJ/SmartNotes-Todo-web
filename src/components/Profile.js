@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import AppNavbar from "./AppNavbar";
 import {FaUserCircle} from 'react-icons/fa'
- import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js/auto';
 import { Pie } from 'react-chartjs-2';
 import {Link,Outlet} from 'react-router-dom';
 import { useEffect, useState } from 'react';
