@@ -12,8 +12,6 @@ import Badge from 'react-bootstrap/Badge';
 import {FcSurvey,FcCheckmark} from 'react-icons/fc'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { URL } from '../App';
 
 export default function Todos() {
